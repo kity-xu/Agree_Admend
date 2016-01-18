@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0;
+}
+
+#container {
+	width: 1000px;
+	margin: 0 auto;
+	background-image: url(img/manger.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#container_main {
+	width: 1000px;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#header {
+	background-color: #48c0ff;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	padding: auto auto;
+}
+
+h1 {
+	margin: 0 auto;
+}
+
+#link {
+	width: 1000px;
+	margin: 0 auto;
+	height: 22px;
+	background: #c0c0c0;
+}
+
+ul {
+	list-style: none;
+	margin: 0 auto;
+}
+
+ul li {
+	float: left;
+	width: 190px;
+	text-align: center;
+	border-right: 2px solid #aba;
+	padding-top: -2px;
+	height: 22px;
+}
+
+a {
+	text-decoration: underline;
+}
+
+#footer {
+	background-color: #48c0ff;
+	text-align: center;
+}

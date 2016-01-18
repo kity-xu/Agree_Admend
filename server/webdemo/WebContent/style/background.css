@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+.backgroundcss {
+	text-align: center;
+	background: #48c0ff;
+}
+
+.backgroundcss form .login label {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.logo {
+	min-width: 100%;
+	text-align: left;
+	overflow: hidden;
+}
+
+.login {
+	width: 100%;
+	background: url(box_bg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 400px;
+}
+
+.loginborder {
+	width: 350px;
+	padding-top: 100px;
+	height: 350px;
+}
+
+.logincont {
+	text-align: left;
+	width: 250px;
+	overflow: visible;
+	height: 250px;
+}
+
+.frame {
+	background: none;
+	position: relative;
+	width: 100%;
+	max-width: 1010px;
+	min-height: 370px; /*加20px滚动条宽度，一般为16或20*/
+	overflow: auto;
+	width: 100%;
+	width: 100%;
+	padding: 0 10px;
+	margin: 1em 0;
+	border: none;
+	box-shadow: -10px -10px 0.6em #c0c0c0, 4px -10px 0.6em #c0c0c0, 4px 4px
+		0.6em #c0c0c0, -10px 4px 0.6em #c0c0c0;
+	position: relative;
+	position: relative;
+}
+
+span.require {
+	color: #FF0000;
+}
+
+span.notrequire {
+	filter: alpha(opacity = 0);
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+	opacity: 0;
+}
+
+.footer {
+	background-color: #48c0ff;
+	text-align: center;
+}

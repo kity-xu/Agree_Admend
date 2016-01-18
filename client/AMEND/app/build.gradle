@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+    }
+
+    defaultConfig {
+        applicationId "cn.com.agree.ab.amend"
+        minSdkVersion 15
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:22.2.1'
+//    compile files('libs/darks-logs-1.0.7r.jar')
+//    compile files('libs/iMateInterface_4.0_20141024.jar')
+//    compile files('libs/iMateInterfaceDevice_4.0_20141024.jar')
+//    compile files('libs/iMateInterfaceMifCard_4.0_20141024.jar')
+//    compile files('libs/iMateInterfacePinpad_4.0_20141024.jar')
+//    compile files('libs/iMatePictureDecoding.jar')
+//    compile files('libs/PictureDecoding.jar')
+    compile 'com.alibaba:fastjson:1.1.45.android'
+   // compile 'org.apache.commons:commons-compress:1.9'
+//    compile files('libs/json-lib-2.2.2-jdk15.jar')
+}

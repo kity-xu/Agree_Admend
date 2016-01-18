@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//WebContent/main.jsp=UTF-8
+encoding//WebContent/resource/mmm/mmm.txt=GBK
+encoding//src/apkutil/ApkPath.java=UTF-8
+encoding//src/bean/Page.java=UTF-8
+encoding//src/dbservlet/AndroidServlet.java=UTF-8
+encoding//src/dbservlet/AppServlet.java=UTF-8
+encoding//src/dbservlet/MyServlet.java=UTF-8
+encoding//src/dbservlet/PerpasswordServlet.java=UTF-8
+encoding//src/filter/LoginFilterWithJump.java=UTF-8
+encoding//src/log4j.properties=UTF-8
+encoding//src/webdemo/DBServlet.java=UTF-8
+encoding//src/webdemo/Login.java=UTF-8

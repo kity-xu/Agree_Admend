@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE xml>
+<Context>
+	<Resource name="jdbc/test" auth="Container" type="javax.sql.DataSource"
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://192.168.1.185:3306/test20150902?characterEncoding=UTF-8"
+		username="test_server" password="qwerty" maxTotal="50" maxIdle="10"
+		maxWaitMillis="3000" />
+</Context>
