@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="cn.com.agree.ab.amend.SettingActivity"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/setting"
+        android:orientation="vertical">
+
+        <EditText
+            android:textColorHint="@color/lightgrey"
+            android:hint="请出入IP"
+            android:textColor="@color/ivory"
+            android:id="@+id/id_ip"
+            android:background="@null"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="end"
+            android:inputType="textUri"
+            android:textSize="20sp"
+            android:layout_width="300dp"
+            android:layout_height="40dp"/>
+
+        <EditText
+            android:textColorHint="@color/lightgrey"
+            android:hint="请出入Port"
+            android:textColor="@color/ivory"
+            android:id="@+id/id_port"
+            android:background="@null"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="end"
+            android:inputType="number"
+            android:textSize="20sp"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            />
+
+        <EditText
+            android:textColorHint="@color/lightgrey"
+            android:hint="请出入Servlet"
+            android:textColor="@color/ivory"
+            android:id="@+id/id_servlet"
+            android:background="@null"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="end"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            />
+
+        <TextView
+            android:background="@null"
+            android:id="@+id/id_set_btn"
+            android:layout_marginTop="35dp"
+            android:layout_gravity="center"
+            android:layout_width="280dp"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

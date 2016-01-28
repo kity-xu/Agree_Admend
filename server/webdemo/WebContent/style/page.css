@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0;
+}
+
+.container {
+	width: 100%;
+	margin: 0;
+	padding: 20px 0 10px 0;
+	float: left;
+}
+
+a {
+	color: #57a000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+}
+
+a:active {
+	color: #777;
+}
+
+a:focus {
+	outline: 1px;
+}
+
+#menu {
+	background-color: transparent;
+	height: 299px /*300px*/;
+	width: 100%;
+	float: left;
+	margin-top: 0;
+	padding-top: 0;
+	text-align: left;
+}
+
+/************ Table ************/
+#menu table {
+	width: 95%;
+	border-collapse: collapse;
+	background-color: transparent;
+	margin-top: 10px;
+	margin-left: 22px;
+}
+
+#menu table thead th {
+	font-weight: bold;
+	font-size: 15px;
+	border-bottom: 1px solid #ddd;
+	text-align: left;
+}
+
+#menu tbody {
+	border-bottom: 1px solid #ddd;
+}
+
+#menu tbody tr {
+	border-bottom: 1px solid #ddd;
+}
+
+#menu table td, #menu table th {
+	padding: 5px;
+	font-size: 16px;
+	line-height: 1.3em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 200px;
+}
+
+/*************** Pagination ***************/
+#menu .pagination {
+	text-align: right;
+	padding: 1px 0 5px 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+#menu .pagination2 {
+	text-align: right;
+	padding: 1px 0 5px 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+#menu .update {
+	position: absolute;
+	top: 98px;
+	margin-left: 630px;
+}
+
+#errorPages {
+	height: 400px;
+	width: 500px;
+	overflow: hidden;
+	text-align: left;
+	padding-left: 10em;
+}

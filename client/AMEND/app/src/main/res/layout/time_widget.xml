@@ -1,0 +1,12 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="50dp"
+    android:layout_width="70dp"
+    android:id="@+id/id_time_widget">
+    android:minHeight="72px"
+
+    android:minWidth="72px"
+
+    android:updatePeriodMillis="3800000"android:initialLayout="@layout/main">
+
+
+</appwidget-provider>
