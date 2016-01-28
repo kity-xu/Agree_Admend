@@ -1,0 +1,24 @@
+﻿<?xml version='1.0'?>
+<Categorys Version='1.1'>
+	<Category Name="Pin">
+		<Kind Factory="南天" />
+		<Kind Factory="通用类型" />
+	</Category>
+	<Category Name="Pingjia">
+		<Kind Factory="升腾" />
+	</Category>
+	<Category Name="Ic">
+		<Kind Factory="通用类型" />
+		<Kind Factory="升腾" />
+	</Category>
+	<Category Name="Idr">
+		<Kind Factory="通用类型" />
+		<Kind Factory="升腾" />
+	</Category>
+	<Category Name="Msf">
+		<Kind Factory="实达" />
+	</Category>
+	<Category Name="PR2PRT">
+		<Kind Factory="OKI" />
+	</Category>
+</Categorys>

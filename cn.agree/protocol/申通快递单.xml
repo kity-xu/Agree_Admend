@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Root>
+	<Setting>
+		<Page>
+			<Width>238</Width>
+			<Height>300</Height>
+			<Leftmargin>22</Leftmargin>
+			<Rightmargin>5</Rightmargin>
+			<Topmargin>32</Topmargin>
+			<Bottommargin>5</Bottommargin>
+			<ColInterval>1</ColInterval>
+			<LineInterval>5.14</LineInterval>
+		</Page>
+	</Setting>
+	<Content>
+		<Table LineSeperate="2.4">
+			<Tr>
+				<Td Width="32"> 珠海赞同科技有限公司</Td>
+				<Td Width="12">.</Td>
+				<Td Width="20">何何何</Td>
+			</Tr>
+			<Tr>
+				<Td Width="51"> 广州市越秀区先烈中路75号穗丰大厦A座818室</Td>
+			</Tr>
+			<Tr>
+				<Td Width="31"> 020-37583826</Td>
+			</Tr>
+			<Tr>
+				<Td Width="32"> 欸壁赛地科技有限公司</Td>
+				<Td Width="12">.</Td>
+				<Td Width="20">欸壁赛</Td>
+			</Tr>
+			<Tr>
+				<Td Width="10">广东</Td>
+				<Td Width="4">.</Td>
+				<Td Width="16">广州</Td>
+				<Td Width="4">.</Td>
+				<Td Width="12">越秀</Td>
+				<Td Width="4">.</Td>
+				<Td Width="10">先</Td>
+			</Tr>
+			<Tr>
+				<Td Width="10">烈中路</Td>
+				<Td Width="12">.</Td>
+				<Td Width="30">穗丰大厦哦电风扇电风扇服务</Td>
+			</Tr>
+			<Tr>
+				<Td Width="29"> 020-37583826</Td>
+			</Tr>
+		</Table>
+
+
+
+		<Table LineSeperate="2.4">
+			<Tr>
+				<Td Width="44"> 赞同科技</Td>
+			</Tr>
+			<Tr>
+				<Td Width="51"> 广州市越秀区先烈中路75号穗丰大厦A座818室</Td>
+			</Tr>
+			<Tr>
+				<Td Width="31">.  </Td>
+			</Tr>
+			<Tr>
+				<Td Width="44"> 珠海赞同科技有限公司</Td>
+			</Tr>
+			<Tr>
+				<Td Width="14">广东</Td>
+				<Td Width="20">珠海</Td>
+				<Td Width="16">唐家湾</Td>
+			</Tr>
+			<Tr>
+				<Td Width="22">软件园</Td>
+				<Td Width="30">1号楼三层303-304室</Td>
+			</Tr>
+			<Tr>
+				<Td Width="29"> 020-37583826</Td>
+			</Tr>
+		</Table>
+		<Table LineSeperate="2.4">
+			<Tr>
+				<Td Width="32">
+					<sub> 珠海赞同科技有限公司</sub>
+				</Td>
+				<Td Width="12">
+				</Td>
+				<Td Width="20">何何何</Td>
+			</Tr>
+			<Tr>
+				<Td Width="51"> 广州市越秀区先烈中路75号穗丰大厦A座818室</Td>
+			</Tr>
+			<Tr>
+				<Td Width="31"> 020-37583826</Td>
+			</Tr>
+			<Tr>
+				<Td Width="32"> 欸壁赛地科技有限公司</Td>
+				<Td Width="12">
+				</Td>
+				<Td Width="20">欸壁赛</Td>
+			</Tr>
+			<Tr>
+				<Td Width="10">
+				</Td>
+				<Td Width="10">广东</Td>
+				<Td Width="4">
+				</Td>
+				<Td Width="16">广州</Td>
+				<Td Width="4">
+				</Td>
+				<Td Width="12">越秀</Td>
+				<Td Width="4">
+				</Td>
+				<Td Width="10">先</Td>
+			</Tr>
+			<Tr>
+				<Td Width="10">烈中路</Td>
+				<Td Width="12">
+				</Td>
+				<Td Width="30">穗丰大厦哦电风扇电风扇服务</Td>
+			</Tr>
+			<Tr>
+				<Td Width="29"> 020-37583826</Td>
+			</Tr>
+		</Table>
+
+
+
+		<Table LineSeperate="2.4">
+			<Tr>
+				<Td Width="44"> 赞同科技</Td>
+			</Tr>
+			<Tr>
+				<Td Width="51"> 广州市越秀区先烈中路75号穗丰大厦A座818室</Td>
+			</Tr>
+			<Tr>
+				<Td Width="31">
+				</Td>
+			</Tr>
+			<Tr>
+				<Td Width="44"> 珠海赞同科技有限公司</Td>
+			</Tr>
+			<Tr>
+				<Td Width="14">广东</Td>
+				<Td Width="20">珠海</Td>
+				<Td Width="16">唐家湾</Td>
+			</Tr>
+			<Tr>
+				<Td Width="22">软件园</Td>
+				<Td Width="30">1号楼三层303-304室</Td>
+			</Tr>
+			<Tr>
+				<Td Width="29"> 020-37583826</Td>
+			</Tr>
+		</Table>
+	</Content>
+</Root>

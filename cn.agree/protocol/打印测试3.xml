@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root caption="">
+	<Setting>
+		<Page>
+			<Width>750</Width>
+			<Height>600</Height>
+			<Topmargin>30</Topmargin>
+			<Leftmargin>30</Leftmargin>
+			<Bottoargin>30</Bottoargin>
+			<Rightmargin>30</Rightmargin>
+			<Lineseperate>2</Lineseperate>
+			<ColInterval>1</ColInterval>
+			<LineInterval>5.14</LineInterval>
+		</Page>
+	</Setting>
+	<Content>
+		<Rect Align="Align_Middle" Height="40" IDE_ID="rect1" Left="30"
+			Pos="absolute" Top="45" Width="150">1234567890</Rect>
+		<Rect Align="Align_Middle" Height="40" IDE_ID="rect1" Left="180"
+			Pos="absolute" Top="45" Width="150"><Doubleheight>看什么看，有什么好看的。</Doubleheight></Rect>
+		<Rect Align="Align_Left" Height="40" IDE_ID="rect3" Left="540"
+			Pos="absolute" Top="45" Width="135">我是吃货</Rect>
+	</Content>
+</Root>

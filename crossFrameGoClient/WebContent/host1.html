@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>crossdomain | cross frame</title>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<style>
+body, button {
+	font-family: Verdana, Arial;
+	color: #333;
+}
+
+h1 {
+	text-align: center;
+	font-size: 24px;
+}
+
+.wrapper {
+	padding: 10px;
+	width: 640px;
+}
+
+.wrapper, #child {
+	border: #A11111 2px solid;
+}
+
+#infoh {
+	color: #00F;
+}
+</style>
+</head>
+<body>
+	<h1>crossdomain using cross-frame.js</h1>
+	<div class='wrapper'>
+		<p>Host window</p>
+		<button id='trigger'>Send Message</button>
+		<p id='infoh'></p>
+		<iframe name='child' width='600' height='300' id='child'></iframe>
+	</div>
+	<script type="text/javascript" src="yahoo-dom-event.js"></script>
+	<script type="text/javascript" src="cross-frame.js"></script>
+	<script type="text/javascript">
+		document.getElementById("child").src = 'http://192.168.13.175:8880/iframe.html';//TODO 服务器操作页面地址
+		(function() {
+
+			var jsonmsg = '{"id":"-6301750200888386298","jsonrpc":"2.0","method":"ConfigProtocol.SaveAllDevConfig","params":{"Timout":10000,"Content":"<Device Category=\\"Pin\\"><Param Name=\\"Factory\\" Value=\\"............\\"/><Param Name=\\"Port\\" Value=\\"USB1\\"/><Param Name=\\"ExtPort\\" Value=\\"\\"/></Device><Device Category=\\"Idr\\"><Param Name=\\"Factory\\" Value=\\"......\\"/><Param Name=\\"Port\\" Value=\\"COM1\\"/><Param Name=\\"ExtPort\\" Value=\\"\\"/></Device><Device Category=\\"PR2PRT\\"><Param Name=\\"Factory\\" Value=\\"......\\"/><Param Name=\\"Port\\" Value=\\"COM1\\"/><Param Name=\\"ExtPort\\" Value=\\"\\"/></Device><Device Category=\\"Msf\\"><Param Name=\\"Factory\\" Value=\\"......\\"/><Param Name=\\"Port\\" Value=\\"COM1\\"/><Param Name=\\"ExtPort\\" Value=\\"\\"/></Device><Device Category=\\"Ic\\"><Param Name=\\"Factory\\" Value=\\"......\\"/><Param Name=\\"Port\\" Value=\\"USB1\\"/><Param Name=\\"ExtPort\\" Value=\\"\\"/></Device><Device Category=\\"Pingjia\\"><Param Name=\\"Factory\\" Value=\\"......\\"/><Param Name=\\"Port\\" Value=\\"USB1\\"/><Param Name=\\"ExtPort\\" Value=\\"\\"/></Device>"}}';//TODO 生成json格式的消息
+
+			var proxyserver = 'http://192.168.13.175:8880/proxys.html';//TODO 服务器代理页面地址
+
+			var proxy = proxyserver, target = "frames['child']", msg = jsonmsg;
+
+			YAHOO.util.Event.addListener("trigger", "click", function(evt) {
+				YAHOO.util.Event.stopEvent(evt);
+				YAHOO.util.CrossFrame.send(proxy, target, msg);
+			});
+
+			YAHOO.util.CrossFrame.onMessageEvent.subscribe(function(type, args,
+					obj) {
+				var message = args[0];
+				var domain = args[1];
+				YAHOO.util.Dom.get("infoh").innerHTML = message
+						+ " (from domain " + domain + ")";
+			});
+		})();
+	</script>
+</body>
+</html>

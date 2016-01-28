@@ -1,0 +1,5 @@
+<Device Category="PR2PRT">
+	<Param Name="Factory" Value="PR2" />
+	<Param Name="Port" Value="COM1" />
+	<Param Name="ExtPort" Value="120" />
+</Device>

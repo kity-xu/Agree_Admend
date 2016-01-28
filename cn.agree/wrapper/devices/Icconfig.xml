@@ -1,0 +1,4 @@
+<Device Category="Ic">
+        <Param Name="Factory" Desc="厂商" Value="general"/>
+        <Param Name="Port" Desc="端口号" Value="COM5"/>
+</Device>

@@ -1,0 +1,5 @@
+<Device Category="Fp">
+	<Param Name="Factory" Value="天诚" />
+	<Param Name="Port" Value="COM3" />
+	<Param Name="ExtPort" Value="" />
+</Device>

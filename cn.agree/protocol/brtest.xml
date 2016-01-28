@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root caption="">
+	<Setting>
+		<Page>
+			<Width>300</Width>
+			<Height>400</Height>
+			<Topmargin>0</Topmargin>
+			<Leftmargin>0</Leftmargin>
+			<Bottoargin>0</Bottoargin>
+			<Rightmargin>0</Rightmargin>
+			<Lineseperate>1</Lineseperate>
+			<ColInterval>1</ColInterval>
+			<LineInterval>1</LineInterval>
+		</Page>
+	</Setting>
+	<Content>
+		<Table LineSeperate="1">
+			<Tr>
+				<Td Width="44"> 赞同科技</Td>
+			</Tr>
+			<Tr>
+				<Td Width="51"> 广州市越秀区先烈中路75号穗丰大厦A座818室</Td>
+			</Tr>
+			<Br></Br>
+			<Tr>
+				<Td Width="31">abcd</Td>
+			</Tr>
+			<Br></Br>
+			<Br></Br>
+			<Tr>
+				<Td Width="44"> 珠海赞同科技有限公司</Td>
+			</Tr>
+			<Br></Br>
+			<Br></Br>
+			<Br></Br>
+			<Tr>
+				<Td Width="14">广东</Td>
+				<Td Width="20">珠海</Td>
+				<Td Width="16">唐家湾</Td>
+			</Tr>
+			<Tr>
+				<Td Width="22">软件园</Td>
+				<Td Width="30">1号楼三层303-304室</Td>
+			</Tr>
+			<Tr>
+				<Td Width="29"> 020-37583826</Td>
+			</Tr>
+		</Table>
+	</Content>
+</Root>

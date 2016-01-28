@@ -1,0 +1,4 @@
+﻿<Device Category="Fin">
+	<Param Name="Factory" Desc="厂商" Value="nantian"/>
+	<Param Name="Port" Desc="端口号" Value="COM4"/>
+</Device>

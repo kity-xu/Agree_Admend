@@ -1,0 +1,14 @@
+<seelog type="asynctimer" asyncinterval="1000" minlevel="info">
+    <outputs formatid="std:debug-short">
+        <rollingfile type="size" filename="logs/productionroll.log" maxsize="4096000" maxrolls="10" />
+        <conn net="tcp" addr="localhost:8887" />
+    </outputs>
+    <formats>
+        <format id="coloredtrace"  format="%EscM(1;35)%Level %Msg%n%EscM(0)"/>
+        <format id="coloreddebug"  format="%EscM(1;32)%Level %Msg%n%EscM(0)"/>
+        <format id="coloredinfo"  format="%EscM(1;34)%Level %Msg%n%EscM(0)"/>
+        <format id="coloredwarn"  format="%EscM(1;33)%Level %Msg%n%EscM(0)"/>
+        <format id="colorederror"  format="%EscM(1;31)%Level %Msg%n%EscM(0)"/>
+        <format id="critical" format="%Time %Date %RelFile %Func %Msg"/>
+    </formats>
+</seelog>

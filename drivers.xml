@@ -1,0 +1,218 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Drivers>
+	<Driver category='Pr2prt' caption='pr2打印机'>
+			<Method name='Pr2Protocol.Print' caption='打印方法'>
+				<Input>
+							<Param name='Timeout' caption="超时时间" />
+							<Param name='Data' caption="打印内容" />
+			  </Input>
+			  <Output>
+			  		<Param name='Code'  caption="返回码" />
+			  		<Param name='Key'  caption="标识" />
+			  		<Param name='ErrMsg' caption="出错信息" />
+			  		<Param name='ResMsg' caption="返回信息" />
+			  </Output>
+			</Method>
+	</Driver>
+	<Driver category='Pin' caption='密码键盘'>
+			<Method name='PinProtocol.Readonce' caption='首次读取'>
+				<Input>
+							<Param name='Timeout' caption="超时时间" />
+			  </Input>
+			  <Output>
+			  		<Param name='Code'  caption="返回码" />
+			  		<Param name='Key'  caption="标识" />
+			  		<Param name='ErrMsg' caption="出错信息" />
+			  		<Param name='ResMsg' caption="返回信息" />
+			  </Output>
+			</Method>
+			<Method name='PinProtocol.Readtwice' caption='再次读取'>
+				<Input>
+							<Param name='Timeout' caption="超时时间" />
+			  </Input>
+			  <Output>
+			  		<Param name='Code'  caption="返回码" />
+			  		<Param name='Key'  caption="标识" />
+			  		<Param name='ErrMsg' caption="出错信息" />
+			  		<Param name='ResMsg' caption="返回信息" />
+			  </Output>
+			</Method>
+	</Driver>
+	<Driver category='Pingjia' caption='评价器'>
+			<Method name='PingjiaProtocol.StartEstimate' caption='开始评价'>
+				<Input>
+							<Param name='Timeout' caption="超时时间" />
+			  </Input>
+			  <Output>
+			  		<Param name='Code'  caption="返回码" />
+			  		<Param name='Key'  caption="标识" />
+			  		<Param name='ErrMsg' caption="出错信息" />
+			  		<Param name='ResMsg' caption="返回信息" />
+			  </Output>
+			</Method>
+	</Driver>
+	<Driver category='Ic' caption='IC卡读卡器'>
+			<Method name='IcProtocol.PowerOff' caption='下电'>
+				<Input>
+							<Param name='Timeout' caption="超时时间" />
+			  </Input>
+			  <Output>
+			  		<Param name='Code'  caption="返回码" />
+			  		<Param name='Key'  caption="标识" />
+			  		<Param name='ErrMsg' caption="出错信息" />
+			  		<Param name='ResMsg' caption="返回信息" />
+			  </Output>
+			</Method>
+			<Method name='IcProtocol.GetICCardInfo' caption='获取IC卡信息'>
+				<Input>
+							<Param name='Timeout' caption="超时时间" />
+							<Param name='TagList' caption="标签列表" />
+							<Param name='LpicAppData' caption="应用信息" />
+			  </Input>
+			  <Output>
+			  		<Param name='Code'  caption="返回码" />
+			  		<Param name='Key'  caption="标识" />
+			  		<Param name='ErrMsg' caption="出错信息" />
+			  		<Param name='ResMsg' caption="返回信息" />
+			  </Output>
+			</Method>
+			<Method name='IcProtocol.GenARQC' caption='获取IC卡arqc'>
+				<Input>
+							<Param name='Timeout' caption="超时时间" />
+							<Param name='TagList' caption="标签列表" />
+							<Param name='LpicAppData' caption="LpicAppData" />
+			  </Input>
+			  <Output>
+			  		<Param name='Code'  caption="返回码" />
+			  		<Param name='Key'  caption="标识" />
+			  		<Param name='ErrMsg' caption="出错信息" />
+			  		<Param name='ResMsg' caption="返回信息" />
+			  </Output>
+			</Method>
+			<Method name='IcProtocol.GetTransDetail' caption='获得交易详细'>
+				<Input>
+							<Param name='Timeout' caption="超时时间" />
+							<Param name='Path' caption="交易详细路径" />
+			  </Input>
+			  <Output>
+			  		<Param name='Code'  caption="返回码" />
+			  		<Param name='Key'  caption="标识" />
+			  		<Param name='ErrMsg' caption="出错信息" />
+			  		<Param name='ResMsg' caption="返回信息" />
+			  </Output>
+			</Method>
+			<Method name='IcProtocol.CtrScriptData' caption='执行脚本'>
+				<Input>
+							<Param name='Timeout' caption="超时时间" />
+							<Param name='TagList' caption="标签列表" />
+							<Param name='LpicAppData' caption="LpicAppData" />
+							<Param name='ARPC' caption="ARPC" />
+			  </Input>
+			  <Output>
+			  		<Param name='Code'  caption="返回码" />
+			  		<Param name='Key'  caption="标识" />
+			  		<Param name='ErrMsg' caption="出错信息" />
+			  		<Param name='ResMsg' caption="返回信息" />
+			  </Output>
+			</Method>
+	</Driver>
+	<Driver category='Idr' caption='身份证读卡器'>
+			<Method name='IdcProtocol.ReadData' caption='读取数据'>
+				<Input>
+							<Param name='Timeout' caption="超时时间" />
+			  </Input>
+			  <Output>
+			  		<Param name='Code'  caption="返回码" />
+			  		<Param name='Key'  caption="标识" />
+			  		<Param name='ErrMsg' caption="出错信息" />
+			  		<Param name='ResMsg' caption="返回信息" />
+			  </Output>
+			</Method>
+	</Driver>
+	<Driver category='Msf' caption='磁卡读卡器'>
+			<Method name='MsfProtocol.Read' caption='开始评价'>
+				<Input>
+							<Param name='Timeout' caption="超时时间" />
+							<Param name='Readtype' caption="读取类型" />
+			  </Input>
+			  <Output>
+			  		<Param name='Code'  caption="返回码" />
+			  		<Param name='Key'  caption="标识" />
+			  		<Param name='ErrMsg' caption="出错信息" />
+			  		<Param name='ResMsg' caption="返回信息" />
+			  </Output>
+			</Method>
+	</Driver>
+	<Driver category='Fin' caption='指纹仪'>
+			<Method name='FinProtocol.GetRegisterFg' caption='获取注册指纹'>
+				<Input>
+							<Param name='Timeout' caption="超时时间" />
+			  </Input>
+			  <Output>
+			  		<Param name='Code'  caption="返回码" />
+			  		<Param name='Key'  caption="标识" />
+			  		<Param name='ErrMsg' caption="出错信息" />
+			  		<Param name='ResMsg' caption="返回信息" />
+			  </Output>
+			</Method>
+			<Method name='FinProtocol.GetValidateFg' caption='获取有效指纹'>
+				<Input>
+							<Param name='Timeout' caption="超时时间" />
+			  </Input>
+			  <Output>
+			  		<Param name='Code'  caption="返回码" />
+			  		<Param name='Key'  caption="标识" />
+			  		<Param name='ErrMsg' caption="出错信息" />
+			  		<Param name='ResMsg' caption="返回信息" />
+			  </Output>
+			</Method>
+			<Method name='FinProtocol.MatchFinger' caption='匹配指纹'>
+				<Input>
+							<Param name='Timeout' caption="超时时间" />
+							<Param name='Reg' caption="注册指纹" />
+							<Param name='Vad' caption="有效指纹" />
+			  </Input>
+			  <Output>
+			  		<Param name='Code'  caption="返回码" />
+			  		<Param name='Key'  caption="标识" />
+			  		<Param name='ErrMsg' caption="出错信息" />
+			  		<Param name='ResMsg' caption="返回信息" />
+			  </Output>
+			</Method>
+	</Driver>
+	<Driver category='Kvm' caption='通道切换器'>
+			<Method name='KvmProtocol.OutSyncInner' caption='外屏同屏内屏'>
+				<Input>
+							<Param name='Timeout' caption="超时时间" />
+			  </Input>
+			  <Output>
+			  		<Param name='Code'  caption="返回码" />
+			  		<Param name='Key'  caption="标识" />
+			  		<Param name='ErrMsg' caption="出错信息" />
+			  		<Param name='ResMsg' caption="返回信息" />
+			  </Output>
+			</Method>
+			<Method name='KvmProtocol.DeSync' caption='断屏'>
+				<Input>
+							<Param name='Timeout' caption="超时时间" />
+			  </Input>
+			  <Output>
+			  		<Param name='Code'  caption="返回码" />
+			  		<Param name='Key'  caption="标识" />
+			  		<Param name='ErrMsg' caption="出错信息" />
+			  		<Param name='ResMsg' caption="返回信息" />
+			  </Output>
+			</Method>
+			<Method name='KvmProtocol.InnSyncOuter' caption='内屏同屏外屏'>
+				<Input>
+							<Param name='Timeout' caption="超时时间" />
+			  </Input>
+			  <Output>
+			  		<Param name='Code'  caption="返回码" />
+			  		<Param name='Key'  caption="标识" />
+			  		<Param name='ErrMsg' caption="出错信息" />
+			  		<Param name='ResMsg' caption="返回信息" />
+			  </Output>
+			</Method>
+	</Driver>
+</Drivers>

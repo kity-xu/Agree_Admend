@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>crossdomain | cross frame</title>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<style>
+body, button {
+	font-family: Verdana, Arial;
+	color: #333;
+}
+
+h1 {
+	text-align: center;
+	font-size: 24px;
+}
+
+.wrapper {
+	padding: 10px;
+	width: 640px;
+}
+
+.wrapper, #child {
+	border: #A11111 2px solid;
+}
+
+#infoh {
+	color: #00F;
+}
+</style>
+</head>
+<body>
+	<h1>crossdomain using cross-frame.js</h1>
+	<div class='wrapper'>
+		<p>Host window</p>
+		<button id='trigger'>Send Message</button>
+		<p id='infoh'></p>
+		<iframe name='child' width='600' height='300' id='child'></iframe>
+	</div>
+	<script type="text/javascript" src="yahoo-dom-event.js"></script>
+	<script type="text/javascript" src="cross-frame.js"></script>
+	<script type="text/javascript">
+		document.getElementById("child").src = 'http://192.168.13.175:8880/iframe.html';//TODO 服务器操作页面地址
+		(function() {
+
+			var jsonmsg = '{"jsonrpc":"2.0","method":"Pr2Protocol.Print","params":{"Timout":1000,"Con":"\\u003c?xml version=\'1.0\' encoding=\'utf-8\'?\\u003e\\r\\n\\t\\u003cRoot\\u003e\\n\\t\\t\\u003cSetting\\u003e\\n\\t\\t\\t\\u003cPage\\u003e\\n\\t\\t\\t\\t\\u003cWidth\\u003e238\\u003c/Width\\u003e\\n\\t\\t\\t\\t\\u003cHeight\\u003e300\\u003c/Height\\u003e\\n\\t\\t\\t\\t\\u003cLeftmargin\\u003e22\\u003c/Leftmargin\\u003e\\n\\t\\t\\t\\t\\u003cRightmargin\\u003e5\\u003c/Rightmargin\\u003e\\n\\t\\t\\t\\t\\u003cTopmargin\\u003e32\\u003c/Topmargin\\u003e\\n\\t\\t\\t\\t\\u003cBottommargin\\u003e5\\u003c/Bottommargin\\u003e\\n\\t\\t\\t\\t\\u003cColInterval\\u003e1\\u003c/ColInterval\\u003e\\n\\t\\t\\t\\t\\u003cLineInterval\\u003e5.14\\u003c/LineInterval\\u003e\\n\\t\\t\\t\\u003c/Page\\u003e\\n\\t\\t\\u003c/Setting\\u003e\\n\\t\\t\\u003cContent\\u003e\\n\\t\\t    \\u003cTable LineSeperate=\\"2.4\\"\\u003e\\n\\t\\t       \\u003cTr\\u003e\\n\\t\\t          \\u003cTd Width=\\"32\\"\\u003e     赞同科技\\u003c/Td\\u003e\\n\\t\\t       \\u003c/Tr\\u003e\\n\\t\\t       \\u003cTr\\u003e\\n\\t\\t          \\u003cTd Width=\\"51\\"\\u003e 广州市越秀区先烈中路75号穗丰大厦A座818室\\u003c/Td\\u003e\\n\\t\\t       \\u003c/Tr\\u003e\\n\\t\\t       \\u003cTr\\u003e\\n\\t\\t          \\u003cTd Width=\\"31\\"\\u003e.\\u003c/Td\\u003e\\n\\t\\t       \\u003c/Tr\\u003e\\n\\t\\t       \\u003cTr\\u003e\\n\\t\\t          \\u003cTd Width=\\"32\\"\\u003e     珠海赞同科技有限公司\\u003c/Td\\u003e\\n\\t\\t       \\u003c/Tr\\u003e\\n\\t\\t       \\u003cTr\\u003e\\n\\t\\t          \\u003cTd Width=\\"14\\"\\u003e广东\\u003c/Td\\u003e\\n\\t\\t          \\u003cTd Width=\\"20\\"\\u003e珠海\\u003c/Td\\u003e\\n\\t\\t       \\u003c/Tr\\u003e\\n\\t\\t       \\u003cTr\\u003e\\n\\t\\t          \\u003cTd Width=\\"45\\"\\u003e唐家湾镇        软件园路1号楼三层303-304室\\u003c/Td\\u003e\\n\\t\\t       \\u003c/Tr\\u003e\\n\\t\\t    \\u003c/Table\\u003e\\n\\t\\t \\u003c/Content\\u003e\\n\\t\\u003c/Root\\u003e"},"id":5577006791947779410}';//TODO 生成json格式的消息
+			var proxyserver = 'http://192.168.13.175:8880/proxys.html';//TODO 服务器代理页面地址
+
+			var proxy = proxyserver, target = "frames['child']", msg = jsonmsg;
+
+			YAHOO.util.Event.addListener("trigger", "click", function(evt) {
+				YAHOO.util.Event.stopEvent(evt);
+				YAHOO.util.CrossFrame.send(proxy, target, msg);
+			});
+
+			YAHOO.util.CrossFrame.onMessageEvent.subscribe(function(type, args,
+					obj) {
+				var message = args[0];
+				var domain = args[1];
+				YAHOO.util.Dom.get("infoh").innerHTML = message
+						+ " (from domain " + domain + ")";
+			});
+		})();
+	</script>
+</body>
+</html>

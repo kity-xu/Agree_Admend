@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D63B1E1197FAC380048144C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D63B1DF197FAC380048144C /* Main_iPad.storyboard */; };
+		4D63B1E3197FAC380048144C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D63B1E0197FAC380048144C /* Main_iPhone.storyboard */; };
+		4D63B29B198096D30048144C /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D63B299198096D30048144C /* close.png */; };
+		4D63B29C198096D30048144C /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D63B29A198096D30048144C /* close@2x.png */; };
+		4D63B2AC1981039E0048144C /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D63B2AA1981039E0048144C /* HelpViewController.m */; };
+		4D63B2AD1981039E0048144C /* HelpViewController~iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D63B2AB1981039E0048144C /* HelpViewController~iPad.xib */; };
+		4D63B2AF198104060048144C /* HelpViewController~iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D63B2AE198104060048144C /* HelpViewController~iPhone.xib */; };
+		4D63B2B2198104DC0048144C /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D63B2B0198104DC0048144C /* help.png */; };
+		4D63B2B3198104DC0048144C /* help@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D63B2B1198104DC0048144C /* help@2x.png */; };
+		4D63B3491987282F0048144C /* menu.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4D63B3481987282F0048144C /* menu.pdf */; };
+		4D63B34A1989C97C0048144C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D63B34C1989C97C0048144C /* InfoPlist.strings */; };
+		4DCAE9CB197CC2B100D69DCD /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DCAE9CA197CC2B100D69DCD /* ExternalAccessory.framework */; };
+		4DCAE9CD197CC2C500D69DCD /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DCAE9CC197CC2C500D69DCD /* libstdc++.dylib */; };
+		4DCAE9DF197D03E000D69DCD /* WorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCAE9DD197D03E000D69DCD /* WorkViewController.m */; };
+		4DCAE9E0197D03E000D69DCD /* WorkViewController~iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCAE9DE197D03E000D69DCD /* WorkViewController~iPad.xib */; };
+		4DCAE9E7197D125500D69DCD /* MJPopupBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCAE9E4197D125500D69DCD /* MJPopupBackgroundView.m */; };
+		4DCAE9E8197D125500D69DCD /* UIViewController+MJPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCAE9E6197D125500D69DCD /* UIViewController+MJPopupViewController.m */; };
+		4DCAE9EF197E044C00D69DCD /* ic_play.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4DCAE9EC197E044C00D69DCD /* ic_play.gif */; };
+		4DCAE9F0197E044C00D69DCD /* id_play.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4DCAE9ED197E044C00D69DCD /* id_play.gif */; };
+		4DCAE9F1197E044C00D69DCD /* mag_play.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4DCAE9EE197E044C00D69DCD /* mag_play.gif */; };
+		4DCAEA1C197F49B400D69DCD /* WorkViewController~iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCAEA1B197F49B400D69DCD /* WorkViewController~iPhone.xib */; };
+		4DCAEA94197FA86800D69DCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCAEA93197FA86800D69DCD /* main.m */; };
+		4DD54F3719AF1E2E00DF67E2 /* DeviceTestWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD54F1819AF1E2E00DF67E2 /* DeviceTestWorkViewController.m */; };
+		4DD54F3819AF1E2E00DF67E2 /* FingerprintWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD54F1A19AF1E2E00DF67E2 /* FingerprintWorkViewController.m */; };
+		4DD54F3919AF1E2E00DF67E2 /* MifareOneWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD54F1C19AF1E2E00DF67E2 /* MifareOneWorkViewController.m */; };
+		4DD54F3A19AF1E2E00DF67E2 /* OtherWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD54F1E19AF1E2E00DF67E2 /* OtherWorkViewController.m */; };
+		4DD54F3B19AF1E2E00DF67E2 /* PbocIssueWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD54F2019AF1E2E00DF67E2 /* PbocIssueWorkViewController.m */; };
+		4DD54F3C19AF1E2E00DF67E2 /* PinpadKMYWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD54F2219AF1E2E00DF67E2 /* PinpadKMYWorkViewController.m */; };
+		4DD54F3D19AF1E2E00DF67E2 /* PinpadXYDWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD54F2419AF1E2E00DF67E2 /* PinpadXYDWorkViewController.m */; };
+		4DD54F3E19AF1E2E00DF67E2 /* PrinterWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD54F2619AF1E2E00DF67E2 /* PrinterWorkViewController.m */; };
+		4DD54F3F19AF1E2E00DF67E2 /* ReadIdCardWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD54F2819AF1E2E00DF67E2 /* ReadIdCardWorkViewController.m */; };
+		4DD54F4019AF1E2E00DF67E2 /* ReadPbocInfoExWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD54F2A19AF1E2E00DF67E2 /* ReadPbocInfoExWorkViewController.m */; };
+		4DD54F4119AF1E2E00DF67E2 /* ReadPbocInfoWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD54F2C19AF1E2E00DF67E2 /* ReadPbocInfoWorkViewController.m */; };
+		4DD54F4219AF1E2E00DF67E2 /* ReadPbocLogWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD54F2E19AF1E2E00DF67E2 /* ReadPbocLogWorkViewController.m */; };
+		4DD54F4319AF1E2E00DF67E2 /* SdCardWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD54F3019AF1E2E00DF67E2 /* SdCardWorkViewController.m */; };
+		4DD54F4419AF1E2E00DF67E2 /* SwipeCardWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD54F3219AF1E2E00DF67E2 /* SwipeCardWorkViewController.m */; };
+		4DD54F4519AF1E2E00DF67E2 /* WaitEventWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD54F3419AF1E2E00DF67E2 /* WaitEventWorkViewController.m */; };
+		4DD54F4619AF1E2E00DF67E2 /* XMemWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD54F3619AF1E2E00DF67E2 /* XMemWorkViewController.m */; };
+		4DD54F4819AF205800DF67E2 /* HXiMateSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD54F4719AF205800DF67E2 /* HXiMateSDK.framework */; };
+		4DDA54D01977A8FD00EE6C9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDA54CF1977A8FD00EE6C9B /* Foundation.framework */; };
+		4DDA54D21977A8FD00EE6C9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDA54D11977A8FD00EE6C9B /* CoreGraphics.framework */; };
+		4DDA54D41977A8FD00EE6C9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDA54D31977A8FD00EE6C9B /* UIKit.framework */; };
+		4DDA54E01977A8FD00EE6C9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDA54DF1977A8FD00EE6C9B /* AppDelegate.m */; };
+		4DDA54E91977A8FD00EE6C9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDA54E81977A8FD00EE6C9B /* ViewController.m */; };
+		4DDA54EB1977A8FD00EE6C9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DDA54EA1977A8FD00EE6C9B /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D63B1DF197FAC380048144C /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		4D63B1E0197FAC380048144C /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		4D63B299198096D30048144C /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		4D63B29A198096D30048144C /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
+		4D63B2A91981039E0048144C /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		4D63B2AA1981039E0048144C /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		4D63B2AB1981039E0048144C /* HelpViewController~iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "HelpViewController~iPad.xib"; sourceTree = "<group>"; };
+		4D63B2AE198104060048144C /* HelpViewController~iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "HelpViewController~iPhone.xib"; sourceTree = "<group>"; };
+		4D63B2B0198104DC0048144C /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help.png; sourceTree = "<group>"; };
+		4D63B2B1198104DC0048144C /* help@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "help@2x.png"; sourceTree = "<group>"; };
+		4D63B3481987282F0048144C /* menu.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = menu.pdf; sourceTree = "<group>"; };
+		4D63B34B1989C97C0048144C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D63B34D1989C9B80048144C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		4DCAE9CA197CC2B100D69DCD /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		4DCAE9CC197CC2C500D69DCD /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		4DCAE9DC197D03E000D69DCD /* WorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkViewController.h; sourceTree = "<group>"; };
+		4DCAE9DD197D03E000D69DCD /* WorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkViewController.m; sourceTree = "<group>"; };
+		4DCAE9DE197D03E000D69DCD /* WorkViewController~iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "WorkViewController~iPad.xib"; sourceTree = "<group>"; };
+		4DCAE9E3197D125500D69DCD /* MJPopupBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPopupBackgroundView.h; sourceTree = "<group>"; };
+		4DCAE9E4197D125500D69DCD /* MJPopupBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPopupBackgroundView.m; sourceTree = "<group>"; };
+		4DCAE9E5197D125500D69DCD /* UIViewController+MJPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MJPopupViewController.h"; sourceTree = "<group>"; };
+		4DCAE9E6197D125500D69DCD /* UIViewController+MJPopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MJPopupViewController.m"; sourceTree = "<group>"; };
+		4DCAE9EC197E044C00D69DCD /* ic_play.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ic_play.gif; sourceTree = "<group>"; };
+		4DCAE9ED197E044C00D69DCD /* id_play.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = id_play.gif; sourceTree = "<group>"; };
+		4DCAE9EE197E044C00D69DCD /* mag_play.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mag_play.gif; sourceTree = "<group>"; };
+		4DCAEA1B197F49B400D69DCD /* WorkViewController~iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "WorkViewController~iPhone.xib"; sourceTree = "<group>"; };
+		4DCAEA93197FA86800D69DCD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DD54F1719AF1E2E00DF67E2 /* DeviceTestWorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceTestWorkViewController.h; sourceTree = "<group>"; };
+		4DD54F1819AF1E2E00DF67E2 /* DeviceTestWorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceTestWorkViewController.m; sourceTree = "<group>"; };
+		4DD54F1919AF1E2E00DF67E2 /* FingerprintWorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerprintWorkViewController.h; sourceTree = "<group>"; };
+		4DD54F1A19AF1E2E00DF67E2 /* FingerprintWorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FingerprintWorkViewController.m; sourceTree = "<group>"; };
+		4DD54F1B19AF1E2E00DF67E2 /* MifareOneWorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MifareOneWorkViewController.h; sourceTree = "<group>"; };
+		4DD54F1C19AF1E2E00DF67E2 /* MifareOneWorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MifareOneWorkViewController.m; sourceTree = "<group>"; };
+		4DD54F1D19AF1E2E00DF67E2 /* OtherWorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherWorkViewController.h; sourceTree = "<group>"; };
+		4DD54F1E19AF1E2E00DF67E2 /* OtherWorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherWorkViewController.m; sourceTree = "<group>"; };
+		4DD54F1F19AF1E2E00DF67E2 /* PbocIssueWorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PbocIssueWorkViewController.h; sourceTree = "<group>"; };
+		4DD54F2019AF1E2E00DF67E2 /* PbocIssueWorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PbocIssueWorkViewController.m; sourceTree = "<group>"; };
+		4DD54F2119AF1E2E00DF67E2 /* PinpadKMYWorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinpadKMYWorkViewController.h; sourceTree = "<group>"; };
+		4DD54F2219AF1E2E00DF67E2 /* PinpadKMYWorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinpadKMYWorkViewController.m; sourceTree = "<group>"; };
+		4DD54F2319AF1E2E00DF67E2 /* PinpadXYDWorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinpadXYDWorkViewController.h; sourceTree = "<group>"; };
+		4DD54F2419AF1E2E00DF67E2 /* PinpadXYDWorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinpadXYDWorkViewController.m; sourceTree = "<group>"; };
+		4DD54F2519AF1E2E00DF67E2 /* PrinterWorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterWorkViewController.h; sourceTree = "<group>"; };
+		4DD54F2619AF1E2E00DF67E2 /* PrinterWorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrinterWorkViewController.m; sourceTree = "<group>"; };
+		4DD54F2719AF1E2E00DF67E2 /* ReadIdCardWorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadIdCardWorkViewController.h; sourceTree = "<group>"; };
+		4DD54F2819AF1E2E00DF67E2 /* ReadIdCardWorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadIdCardWorkViewController.m; sourceTree = "<group>"; };
+		4DD54F2919AF1E2E00DF67E2 /* ReadPbocInfoExWorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadPbocInfoExWorkViewController.h; sourceTree = "<group>"; };
+		4DD54F2A19AF1E2E00DF67E2 /* ReadPbocInfoExWorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadPbocInfoExWorkViewController.m; sourceTree = "<group>"; };
+		4DD54F2B19AF1E2E00DF67E2 /* ReadPbocInfoWorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadPbocInfoWorkViewController.h; sourceTree = "<group>"; };
+		4DD54F2C19AF1E2E00DF67E2 /* ReadPbocInfoWorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadPbocInfoWorkViewController.m; sourceTree = "<group>"; };
+		4DD54F2D19AF1E2E00DF67E2 /* ReadPbocLogWorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadPbocLogWorkViewController.h; sourceTree = "<group>"; };
+		4DD54F2E19AF1E2E00DF67E2 /* ReadPbocLogWorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadPbocLogWorkViewController.m; sourceTree = "<group>"; };
+		4DD54F2F19AF1E2E00DF67E2 /* SdCardWorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SdCardWorkViewController.h; sourceTree = "<group>"; };
+		4DD54F3019AF1E2E00DF67E2 /* SdCardWorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SdCardWorkViewController.m; sourceTree = "<group>"; };
+		4DD54F3119AF1E2E00DF67E2 /* SwipeCardWorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeCardWorkViewController.h; sourceTree = "<group>"; };
+		4DD54F3219AF1E2E00DF67E2 /* SwipeCardWorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeCardWorkViewController.m; sourceTree = "<group>"; };
+		4DD54F3319AF1E2E00DF67E2 /* WaitEventWorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitEventWorkViewController.h; sourceTree = "<group>"; };
+		4DD54F3419AF1E2E00DF67E2 /* WaitEventWorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaitEventWorkViewController.m; sourceTree = "<group>"; };
+		4DD54F3519AF1E2E00DF67E2 /* XMemWorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMemWorkViewController.h; sourceTree = "<group>"; };
+		4DD54F3619AF1E2E00DF67E2 /* XMemWorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMemWorkViewController.m; sourceTree = "<group>"; };
+		4DD54F4719AF205800DF67E2 /* HXiMateSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HXiMateSDK.framework; sourceTree = "<group>"; };
+		4DDA54CC1977A8FD00EE6C9B /* IMFCTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMFCTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DDA54CF1977A8FD00EE6C9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4DDA54D11977A8FD00EE6C9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4DDA54D31977A8FD00EE6C9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4DDA54D71977A8FD00EE6C9B /* IMFCTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IMFCTest-Info.plist"; sourceTree = "<group>"; };
+		4DDA54DD1977A8FD00EE6C9B /* IMFCTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IMFCTest-Prefix.pch"; sourceTree = "<group>"; };
+		4DDA54DE1977A8FD00EE6C9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4DDA54DF1977A8FD00EE6C9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4DDA54E71977A8FD00EE6C9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4DDA54E81977A8FD00EE6C9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4DDA54EA1977A8FD00EE6C9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DDA54C91977A8FD00EE6C9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DCAE9CD197CC2C500D69DCD /* libstdc++.dylib in Frameworks */,
+				4DCAE9CB197CC2B100D69DCD /* ExternalAccessory.framework in Frameworks */,
+				4DDA54D21977A8FD00EE6C9B /* CoreGraphics.framework in Frameworks */,
+				4DDA54D41977A8FD00EE6C9B /* UIKit.framework in Frameworks */,
+				4DD54F4819AF205800DF67E2 /* HXiMateSDK.framework in Frameworks */,
+				4DDA54D01977A8FD00EE6C9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D3D76571977B72F006BBBD3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				4D63B2B0198104DC0048144C /* help.png */,
+				4D63B2B1198104DC0048144C /* help@2x.png */,
+				4D63B299198096D30048144C /* close.png */,
+				4D63B29A198096D30048144C /* close@2x.png */,
+				4DCAE9EC197E044C00D69DCD /* ic_play.gif */,
+				4DCAE9ED197E044C00D69DCD /* id_play.gif */,
+				4DCAE9EE197E044C00D69DCD /* mag_play.gif */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		4DCAE9E2197D125500D69DCD /* popView */ = {
+			isa = PBXGroup;
+			children = (
+				4DCAE9E3197D125500D69DCD /* MJPopupBackgroundView.h */,
+				4DCAE9E4197D125500D69DCD /* MJPopupBackgroundView.m */,
+				4DCAE9E5197D125500D69DCD /* UIViewController+MJPopupViewController.h */,
+				4DCAE9E6197D125500D69DCD /* UIViewController+MJPopupViewController.m */,
+			);
+			path = popView;
+			sourceTree = "<group>";
+		};
+		4DD54F1619AF1E2E00DF67E2 /* SubclassOfWorkViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DD54F1719AF1E2E00DF67E2 /* DeviceTestWorkViewController.h */,
+				4DD54F1819AF1E2E00DF67E2 /* DeviceTestWorkViewController.m */,
+				4DD54F1919AF1E2E00DF67E2 /* FingerprintWorkViewController.h */,
+				4DD54F1A19AF1E2E00DF67E2 /* FingerprintWorkViewController.m */,
+				4DD54F1B19AF1E2E00DF67E2 /* MifareOneWorkViewController.h */,
+				4DD54F1C19AF1E2E00DF67E2 /* MifareOneWorkViewController.m */,
+				4DD54F1D19AF1E2E00DF67E2 /* OtherWorkViewController.h */,
+				4DD54F1E19AF1E2E00DF67E2 /* OtherWorkViewController.m */,
+				4DD54F1F19AF1E2E00DF67E2 /* PbocIssueWorkViewController.h */,
+				4DD54F2019AF1E2E00DF67E2 /* PbocIssueWorkViewController.m */,
+				4DD54F2119AF1E2E00DF67E2 /* PinpadKMYWorkViewController.h */,
+				4DD54F2219AF1E2E00DF67E2 /* PinpadKMYWorkViewController.m */,
+				4DD54F2319AF1E2E00DF67E2 /* PinpadXYDWorkViewController.h */,
+				4DD54F2419AF1E2E00DF67E2 /* PinpadXYDWorkViewController.m */,
+				4DD54F2519AF1E2E00DF67E2 /* PrinterWorkViewController.h */,
+				4DD54F2619AF1E2E00DF67E2 /* PrinterWorkViewController.m */,
+				4DD54F2719AF1E2E00DF67E2 /* ReadIdCardWorkViewController.h */,
+				4DD54F2819AF1E2E00DF67E2 /* ReadIdCardWorkViewController.m */,
+				4DD54F2919AF1E2E00DF67E2 /* ReadPbocInfoExWorkViewController.h */,
+				4DD54F2A19AF1E2E00DF67E2 /* ReadPbocInfoExWorkViewController.m */,
+				4DD54F2B19AF1E2E00DF67E2 /* ReadPbocInfoWorkViewController.h */,
+				4DD54F2C19AF1E2E00DF67E2 /* ReadPbocInfoWorkViewController.m */,
+				4DD54F2D19AF1E2E00DF67E2 /* ReadPbocLogWorkViewController.h */,
+				4DD54F2E19AF1E2E00DF67E2 /* ReadPbocLogWorkViewController.m */,
+				4DD54F2F19AF1E2E00DF67E2 /* SdCardWorkViewController.h */,
+				4DD54F3019AF1E2E00DF67E2 /* SdCardWorkViewController.m */,
+				4DD54F3119AF1E2E00DF67E2 /* SwipeCardWorkViewController.h */,
+				4DD54F3219AF1E2E00DF67E2 /* SwipeCardWorkViewController.m */,
+				4DD54F3319AF1E2E00DF67E2 /* WaitEventWorkViewController.h */,
+				4DD54F3419AF1E2E00DF67E2 /* WaitEventWorkViewController.m */,
+				4DD54F3519AF1E2E00DF67E2 /* XMemWorkViewController.h */,
+				4DD54F3619AF1E2E00DF67E2 /* XMemWorkViewController.m */,
+			);
+			path = SubclassOfWorkViewController;
+			sourceTree = "<group>";
+		};
+		4DDA54C31977A8FD00EE6C9B = {
+			isa = PBXGroup;
+			children = (
+				4DDA54D51977A8FD00EE6C9B /* IMFCTest */,
+				4DDA54CE1977A8FD00EE6C9B /* Frameworks */,
+				4DDA54CD1977A8FD00EE6C9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DDA54CD1977A8FD00EE6C9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DDA54CC1977A8FD00EE6C9B /* IMFCTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DDA54CE1977A8FD00EE6C9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DD54F4719AF205800DF67E2 /* HXiMateSDK.framework */,
+				4DCAE9CC197CC2C500D69DCD /* libstdc++.dylib */,
+				4DCAE9CA197CC2B100D69DCD /* ExternalAccessory.framework */,
+				4DDA54CF1977A8FD00EE6C9B /* Foundation.framework */,
+				4DDA54D11977A8FD00EE6C9B /* CoreGraphics.framework */,
+				4DDA54D31977A8FD00EE6C9B /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DDA54D51977A8FD00EE6C9B /* IMFCTest */ = {
+			isa = PBXGroup;
+			children = (
+				4DDA54DE1977A8FD00EE6C9B /* AppDelegate.h */,
+				4DDA54DF1977A8FD00EE6C9B /* AppDelegate.m */,
+				4DDA54E71977A8FD00EE6C9B /* ViewController.h */,
+				4DDA54E81977A8FD00EE6C9B /* ViewController.m */,
+				4D63B1DF197FAC380048144C /* Main_iPad.storyboard */,
+				4D63B1E0197FAC380048144C /* Main_iPhone.storyboard */,
+				4DCAE9DC197D03E000D69DCD /* WorkViewController.h */,
+				4DCAE9DD197D03E000D69DCD /* WorkViewController.m */,
+				4DD54F1619AF1E2E00DF67E2 /* SubclassOfWorkViewController */,
+				4DCAE9DE197D03E000D69DCD /* WorkViewController~iPad.xib */,
+				4DCAEA1B197F49B400D69DCD /* WorkViewController~iPhone.xib */,
+				4D63B2A91981039E0048144C /* HelpViewController.h */,
+				4D63B2AA1981039E0048144C /* HelpViewController.m */,
+				4D63B2AB1981039E0048144C /* HelpViewController~iPad.xib */,
+				4D63B2AE198104060048144C /* HelpViewController~iPhone.xib */,
+				4DDA54D61977A8FD00EE6C9B /* Supporting Files */,
+				4D3D76571977B72F006BBBD3 /* images */,
+				4DCAE9E2197D125500D69DCD /* popView */,
+			);
+			name = IMFCTest;
+			path = iMateTest;
+			sourceTree = "<group>";
+		};
+		4DDA54D61977A8FD00EE6C9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D63B3481987282F0048144C /* menu.pdf */,
+				4DCAEA93197FA86800D69DCD /* main.m */,
+				4DDA54EA1977A8FD00EE6C9B /* Images.xcassets */,
+				4D63B34C1989C97C0048144C /* InfoPlist.strings */,
+				4DDA54D71977A8FD00EE6C9B /* IMFCTest-Info.plist */,
+				4DDA54DD1977A8FD00EE6C9B /* IMFCTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DDA54CB1977A8FD00EE6C9B /* IMFCTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DDA55011977A8FD00EE6C9B /* Build configuration list for PBXNativeTarget "IMFCTest" */;
+			buildPhases = (
+				4DDA54C81977A8FD00EE6C9B /* Sources */,
+				4DDA54C91977A8FD00EE6C9B /* Frameworks */,
+				4DDA54CA1977A8FD00EE6C9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMFCTest;
+			productName = iMateTest;
+			productReference = 4DDA54CC1977A8FD00EE6C9B /* IMFCTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DDA54C41977A8FD00EE6C9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = hxsmart;
+				TargetAttributes = {
+					4DDA54CB1977A8FD00EE6C9B = {
+						DevelopmentTeam = H44B9UPP73;
+					};
+				};
+			};
+			buildConfigurationList = 4DDA54C71977A8FD00EE6C9B /* Build configuration list for PBXProject "IMFCTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 4DDA54C31977A8FD00EE6C9B;
+			productRefGroup = 4DDA54CD1977A8FD00EE6C9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DDA54CB1977A8FD00EE6C9B /* IMFCTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DDA54CA1977A8FD00EE6C9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DCAEA1C197F49B400D69DCD /* WorkViewController~iPhone.xib in Resources */,
+				4D63B2B3198104DC0048144C /* help@2x.png in Resources */,
+				4D63B2AF198104060048144C /* HelpViewController~iPhone.xib in Resources */,
+				4D63B34A1989C97C0048144C /* InfoPlist.strings in Resources */,
+				4D63B29B198096D30048144C /* close.png in Resources */,
+				4DCAE9F1197E044C00D69DCD /* mag_play.gif in Resources */,
+				4D63B2AD1981039E0048144C /* HelpViewController~iPad.xib in Resources */,
+				4DCAE9F0197E044C00D69DCD /* id_play.gif in Resources */,
+				4DDA54EB1977A8FD00EE6C9B /* Images.xcassets in Resources */,
+				4DCAE9EF197E044C00D69DCD /* ic_play.gif in Resources */,
+				4D63B2B2198104DC0048144C /* help.png in Resources */,
+				4D63B3491987282F0048144C /* menu.pdf in Resources */,
+				4DCAE9E0197D03E000D69DCD /* WorkViewController~iPad.xib in Resources */,
+				4D63B1E1197FAC380048144C /* Main_iPad.storyboard in Resources */,
+				4D63B1E3197FAC380048144C /* Main_iPhone.storyboard in Resources */,
+				4D63B29C198096D30048144C /* close@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DDA54C81977A8FD00EE6C9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD54F3C19AF1E2E00DF67E2 /* PinpadKMYWorkViewController.m in Sources */,
+				4DDA54E91977A8FD00EE6C9B /* ViewController.m in Sources */,
+				4DCAE9E8197D125500D69DCD /* UIViewController+MJPopupViewController.m in Sources */,
+				4DD54F4619AF1E2E00DF67E2 /* XMemWorkViewController.m in Sources */,
+				4DD54F3D19AF1E2E00DF67E2 /* PinpadXYDWorkViewController.m in Sources */,
+				4DD54F4319AF1E2E00DF67E2 /* SdCardWorkViewController.m in Sources */,
+				4DD54F3919AF1E2E00DF67E2 /* MifareOneWorkViewController.m in Sources */,
+				4DD54F3A19AF1E2E00DF67E2 /* OtherWorkViewController.m in Sources */,
+				4DDA54E01977A8FD00EE6C9B /* AppDelegate.m in Sources */,
+				4DD54F3E19AF1E2E00DF67E2 /* PrinterWorkViewController.m in Sources */,
+				4DD54F4119AF1E2E00DF67E2 /* ReadPbocInfoWorkViewController.m in Sources */,
+				4DD54F3719AF1E2E00DF67E2 /* DeviceTestWorkViewController.m in Sources */,
+				4DD54F4519AF1E2E00DF67E2 /* WaitEventWorkViewController.m in Sources */,
+				4D63B2AC1981039E0048144C /* HelpViewController.m in Sources */,
+				4DD54F4419AF1E2E00DF67E2 /* SwipeCardWorkViewController.m in Sources */,
+				4DD54F3B19AF1E2E00DF67E2 /* PbocIssueWorkViewController.m in Sources */,
+				4DD54F4219AF1E2E00DF67E2 /* ReadPbocLogWorkViewController.m in Sources */,
+				4DD54F4019AF1E2E00DF67E2 /* ReadPbocInfoExWorkViewController.m in Sources */,
+				4DCAE9DF197D03E000D69DCD /* WorkViewController.m in Sources */,
+				4DD54F3819AF1E2E00DF67E2 /* FingerprintWorkViewController.m in Sources */,
+				4DCAE9E7197D125500D69DCD /* MJPopupBackgroundView.m in Sources */,
+				4DD54F3F19AF1E2E00DF67E2 /* ReadIdCardWorkViewController.m in Sources */,
+				4DCAEA94197FA86800D69DCD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D63B34C1989C97C0048144C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D63B34B1989C97C0048144C /* en */,
+				4D63B34D1989C9B80048144C /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DDA54FF1977A8FD00EE6C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DDA55001977A8FD00EE6C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DDA55021977A8FD00EE6C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jun Tan (KHTLRS6Z6A)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jun Tan (KHTLRS6Z6A)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMateTest/IMFCTest-Prefix.pch";
+				INFOPLIST_FILE = "iMateTest/IMFCTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = IMFCTest;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4DDA55031977A8FD00EE6C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jun Tan (KHTLRS6Z6A)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jun Tan (KHTLRS6Z6A)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMateTest/IMFCTest-Prefix.pch";
+				INFOPLIST_FILE = "iMateTest/IMFCTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = IMFCTest;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DDA54C71977A8FD00EE6C9B /* Build configuration list for PBXProject "IMFCTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DDA54FF1977A8FD00EE6C9B /* Debug */,
+				4DDA55001977A8FD00EE6C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DDA55011977A8FD00EE6C9B /* Build configuration list for PBXNativeTarget "IMFCTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DDA55021977A8FD00EE6C9B /* Debug */,
+				4DDA55031977A8FD00EE6C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DDA54C41977A8FD00EE6C9B /* Project object */;
+}

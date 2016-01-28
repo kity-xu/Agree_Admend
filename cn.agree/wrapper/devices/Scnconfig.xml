@@ -1,0 +1,4 @@
+<Device Category="Scn">
+		<Param Name="Factory" Desc="厂商" Value="通用类型"/>
+		<Param Name="Port" Desc="端口号" Value="COM4"/>
+</Device>

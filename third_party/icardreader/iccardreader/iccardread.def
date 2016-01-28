@@ -1,0 +1,3 @@
+LIBRARY "iccardreader"
+EXPORTS
+ReadICCard @1

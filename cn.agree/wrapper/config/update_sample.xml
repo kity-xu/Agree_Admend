@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+<Section Exe="c:/Program Files/a.exe" Preupdate="close" Updateend="open">
+	<File Srclocation='update/ylkz/WaveLibMixer.dll' Dstlocation='c:/Program Files/a/WaveLibMixer.dll' />
+</Section>
+<Section>
+	<File Srclocation='update/patch/office.bat' Dstlocation='c:/patchout/office.bat' Runmethod='run'/>
+	<File Srclocation='update/patch/ylkz.bat' Dstlocation='c:/patchout/ylkz.bat' Runmethod='run' />
+</Section>
+<Section Exe="c:/Program Files/short_cut/short_cut.exe" Preupdate="close" Updateend="closeie" >
+	<File Srclocation='update/short_cut/ktr.dll' Dstlocation='c:/Program Files/short_cut/dll/ktr.dll' Modifytime='2010 09 15 15 45'/>
+	<File Srclocation='update/short_cut/short_cut.exe' Dstlocation='c:/Program Files/short_cut/short_cut.exe' Modifytime='2011 06 17 19 06'/>
+</Section>
+<Section Updateend="reboot">
+	<File Srclocation='update/short_cut/config.ini' Dstlocation='C:/Program Files/short_cut/conf/config.ini' />
+</Section>
+</root>

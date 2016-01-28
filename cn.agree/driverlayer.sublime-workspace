@@ -1,0 +1,483 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"r",
+				"O_RDONLY	 Ɩ"
+			],
+			[
+				"open",
+				"OpenFile	file *os.File, err error ƒ"
+			],
+			[
+				"stringto",
+				"StringToUTF16Ptr	*uint16 ƒ"
+			],
+			[
+				"ov",
+				"FILE_FLAG_OVERLAPPED	 Ɩ"
+			],
+			[
+				"fileatt",
+				"FILE_ATTRIBUTE_NORMAL	 Ɩ"
+			],
+			[
+				"gen",
+				"GENERIC_WRITE	 Ɩ"
+			],
+			[
+				"gene",
+				"GENERIC_READ	 Ɩ"
+			],
+			[
+				"create",
+				"CreateFile	handle syscall.Handle, err error ƒ"
+			],
+			[
+				"for",
+				"FormatInt	string ƒ"
+			],
+			[
+				"app",
+				"AppendBool	[]byte ƒ"
+			],
+			[
+				"str",
+				"strconv	 package ρ"
+			],
+			[
+				"de",
+				"DecodeString	[]byte, error ƒ"
+			],
+			[
+				"d",
+				"DecodeString	[]byte, error ƒ"
+			],
+			[
+				"e",
+				"EncodeToString	string ƒ"
+			],
+			[
+				"readw",
+				"ReadWriteCloser	interface ¡"
+			],
+			[
+				"err",
+				"Errorln	 ƒ"
+			],
+			[
+				"re",
+				"Readtwice	error ƒ"
+			],
+			[
+				"Driver",
+				"DriverArg	struct ʈ"
+			],
+			[
+				"Pin",
+				"PinArguments	DriverArg ν"
+			],
+			[
+				"print",
+				"Println	n int, err error ƒ"
+			],
+			[
+				"P",
+				"Printf	n int, err error ƒ"
+			],
+			[
+				"prin",
+				"Println	n int, err error ƒ"
+			],
+			[
+				"respons",
+				"ResponseWriter	interface ¡"
+			],
+			[
+				"imp",
+				"import	import (...) ʂ"
+			],
+			[
+				"fun",
+				"func main	func main {...} ʂ"
+			],
+			[
+				"pri",
+				"Println	n int, err error ƒ"
+			],
+			[
+				"im",
+				"import	import (...) ʂ"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/GoSublime/GoSublime.sublime-build",
+	"command_palette":
+	{
+		"height": 265.0,
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: Struct"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"ip",
+				"Package Control: Install Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"go get github.com/nsf/gocode",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Go/src/pkg/os/file_plan9.go",
+		"/E/Go/src/pkg/bufio/bufio.go",
+		"/E/GoProject/src/cn.agree/wrapper/test.go",
+		"/E/Go/src/pkg/sync/atomic/doc.go",
+		"/E/Go/src/pkg/syscall/zsyscall_windows_amd64.go",
+		"/E/Go/src/pkg/syscall/zsyscall_windows_386.go",
+		"/E/Go/src/pkg/syscall/ztypes_windows.go",
+		"/E/GoProject/src/cn.agree/driverlayer/pin/pingeneral.go",
+		"/E/Go/src/pkg/math/big/int.go",
+		"/E/Go/src/pkg/math/big/nat.go",
+		"/C/Documents and Settings/Administrator/Application Data/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Documents and Settings/Administrator/Application Data/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/e/goproject/src/cn.agree/wrapper/main.go",
+		"/C/Documents and Settings/Administrator/Application Data/Sublime Text 3/Packages/SublimeGDB/SublimeGDB.sublime-settings",
+		"/C/Documents and Settings/Administrator/Application Data/Sublime Text 3/Packages/User/SublimeGDB.sublime-settings",
+		"/E/GoProject/src/cn.agree/protocol/driversconfigparser.go",
+		"/E/GoProject/src/cn.agree/driverlayer/driverutils.go",
+		"/E/GoProject/src/cn.agree/protocol/curdriverparser.go",
+		"/E/GoProject/src/cn.agree/wrapper/main.go",
+		"/E/Go/src/pkg/strconv/itoa.go",
+		"/E/Go/src/pkg/reflect/type.go",
+		"/E/Go/src/pkg/fmt/print.go",
+		"/E/GoProject/src/cn.agree/utils/utils_test.go",
+		"/C/Documents and Settings/Administrator/Application Data/Sublime Text 3/Packages/User/GoSublime.sublime-settings",
+		"/C/Documents and Settings/Administrator/Application Data/Sublime Text 3/Packages/GoSublime/GoSublime.sublime-settings",
+		"/E/GoProject/driverlayer/src/cn.agree/driverlayer.sublime-project",
+		"/E/GoProject/driverlayer/src/cn.agree/driverlayer/pin/pingeneral.go",
+		"/E/GoProject/driverlayer/src/cn.agree/protocol/pinprotocol.go",
+		"/E/Go/src/pkg/encoding/hex/hex.go",
+		"/E/GoProject/driverlayer/src/cn.agree/driverlayer/driverutils.go",
+		"/E/GoProject/driverlayer/src/cn.agree/hardware/serailimp.go",
+		"/E/GoProject/driverlayer/src/cn.agree/protocol/driversconfigparser.go",
+		"/E/GoProject/driverlayer/src/cn.agree/protocol/curdriverparser.go",
+		"/E/GoProject/driverlayer/src/cn.agree/protocol/driverfacade.go",
+		"/E/GoProject/driverlayer/src/cn.agree/protocol/jsonrpcserver.go",
+		"/E/GoProject/driverlayer/src/cn.agree/driverfacade/driverfacade.go",
+		"/E/GoProject/driverlayer/src/cn.agree/wrapper/driverlayer.go",
+		"/E/GoProject/driverlayer/src/cn.agree/driverlayer/driverlayer.go",
+		"/E/GoProject/driverlayer/src/cn.agree/protocol/driverlayer.go",
+		"/E/GoProject/driverlayer/src/cn.agree/driverlayer/drivers_config_parser.go",
+		"/E/GoProject/driverlayer/src/cn.agree/driverlayer/driverinterface.go",
+		"/E/GoProject/driverlayer/src/cn.agree/driverlayer/cur_driver_parser.go",
+		"/E/GoProject/driverlayer/src/cn.agree/driverfacade/cur_driver_parser.go",
+		"/E/GoProject/driverlayer/src/cn.agree/driverfacade/driverlayer.go",
+		"/E/GoProject/driverlayer/src/cn.agree/driverfacade/pin/pingeneral.go",
+		"/E/GoProject/driverlayer/src/cn.agree/driverfacade/pingeneral.go",
+		"/E/GoProject/driverlayer/src/cn.agree/utils/net.go",
+		"/E/GoProject/driverlayer/src/cn.agree/driverfacade/driverinterface.go",
+		"/E/Go/src/pkg/net/interface.go",
+		"/E/Go/src/pkg/net/net.go",
+		"/E/GoProject/driverlayer/src/cn.agree/hardware/GoSerailImp.go",
+		"/E/GoProject/driverlayer/src/cn.agree/wrapper/test.go",
+		"/E/GoProject/driverlayer/src/cn.agree/hardware/commoper.go",
+		"/E/GoProject/driverlayer/src/cn.agree/driverfacade/jstdcb_pin.go",
+		"/E/GoProject/driverlayer/src/cn.agree/wrapper/main.go",
+		"/E/GoProject/driverlayer/src/cn.agree/protocol/protocol_test.go",
+		"/E/Go/src/pkg/flag/flag.go",
+		"/E/GoProject/github/src/github.com/golang/glog/glog.go",
+		"/E/GoProject/driverlayer/src/cn.agree/driverfacade/drivers_config_parser.go",
+		"/C/Documents and Settings/Administrator/Application Data/Sublime Text 3/Packages/GoSublime/USAGE.md",
+		"/E/GoProject/driverlayer/src/wrapper/main.go",
+		"/E/Go/src/pkg/net/dial.go",
+		"/C/Documents and Settings/Administrator/Application Data/Sublime Text 3/Packages/CTags/Default.sublime-mousemap",
+		"/C/Documents and Settings/Administrator/Application Data/Sublime Text 3/Packages/CTags/Default.sublime-keymap",
+		"/C/Documents and Settings/Administrator/Application Data/Sublime Text 3/Packages/CTags/CTags.sublime-settings",
+		"/C/Documents and Settings/Administrator/Application Data/Sublime Text 3/Packages/User/Default (Windows).sublime-mousemap",
+		"/E/Go/src/pkg/net/rpc/jsonrpc/client.go",
+		"/C/Documents and Settings/Administrator/Application Data/Sublime Text 3/Packages/User/CTags.sublime-settings",
+		"/C/Documents and Settings/Administrator/Application Data/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/E/GoProject/driverlayer/src/wrapper/warning",
+		"/E/GoProject/driverlayer/src/wrapper/[cmd",
+		"/C/Documents and Settings/Administrator/桌面/test.go",
+		"/E/GoProject/driverlayer/src/test.go",
+		"/C/Documents and Settings/Administrator/Application Data/Sublime Text 3/Packages/User/go.sublime-build",
+		"/E/go_project/driverlayer/src/test.go",
+		"/E/go_project/driverlayer/AUTHORS",
+		"/E/go_project/driverlayer/readme.txt",
+		"/C/Documents and Settings/Administrator/桌面/t.go",
+		"/C/Documents and Settings/Administrator/Application Data/Sublime Text 3/t.go",
+		"/C/Documents and Settings/Administrator/Application Data/Sublime Text 3/Packages/GoSublime/CHANGELOG.md"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"templatefile",
+			"gdb",
+			"reflect.",
+			"reflect",
+			"reflect ",
+			"doPrint",
+			"Println",
+			"testClient",
+			"DriverArg",
+			"doprint",
+			"newPrinter",
+			"doPrint",
+			"printf",
+			"Interrupt",
+			"main",
+			"testClient",
+			"glog"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.9o://C:\\Documents and Settings\\Administrator\\Application Data\\Sublime Text 3":
+	{
+		"height": 100.0
+	},
+	"output.9o://C:\\Documents and Settings\\Administrator\\Application Data\\Sublime Text 3\\Packages\\User":
+	{
+		"height": 100.0
+	},
+	"output.9o://C:\\Documents and Settings\\Administrator\\桌面":
+	{
+		"height": 100.0
+	},
+	"output.9o://E:\\GoProject\\driverlayer\\src":
+	{
+		"height": 100.0
+	},
+	"output.9o://E:\\GoProject\\driverlayer\\src\\cn.agree\\driverfacade":
+	{
+		"height": 100.0
+	},
+	"output.9o://E:\\GoProject\\driverlayer\\src\\cn.agree\\driverfacade\\pin":
+	{
+		"height": 100.0
+	},
+	"output.9o://E:\\GoProject\\driverlayer\\src\\cn.agree\\utils":
+	{
+		"height": 100.0
+	},
+	"output.9o://E:\\GoProject\\driverlayer\\src\\cn.agree\\wrapper":
+	{
+		"height": 100.0
+	},
+	"output.9o://E:\\GoProject\\driverlayer\\src\\wrapper":
+	{
+		"height": 100.0
+	},
+	"output.9o://E:\\GoProject\\src\\cn.agree\\protocol":
+	{
+		"height": 100.0
+	},
+	"output.9o://E:\\GoProject\\src\\cn.agree\\utils":
+	{
+		"height": 100.0
+	},
+	"output.9o://E:\\GoProject\\src\\cn.agree\\wrapper":
+	{
+		"height": 100.0
+	},
+	"output.9o://E:\\Program files\\Sublime Text 3":
+	{
+		"height": 226.0
+	},
+	"output.9o://E:\\go_project\\driverlayer\\src":
+	{
+		"height": 100.0
+	},
+	"output.GsDoc-output-output":
+	{
+		"height": 100.0
+	},
+	"output.MarGo-output":
+	{
+		"height": 100.0
+	},
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "driverlayer.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}

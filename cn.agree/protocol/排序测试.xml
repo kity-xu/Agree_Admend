@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root caption="">
+	<Setting>
+		<Page>
+			<Width>300</Width>
+			<Height>400</Height>
+			<Topmargin>10</Topmargin>
+			<Leftmargin>10</Leftmargin>
+			<Bottoargin>30</Bottoargin>
+			<Rightmargin>30</Rightmargin>
+			<Lineseperate>2</Lineseperate>
+			<ColInterval>3</ColInterval>
+			<LineInterval>5.14</LineInterval>
+		</Page>
+	</Setting>
+	<Content>
+		<Rect Align="Align_Middle" Height="40" IDE_ID="rect1" Left="60"
+			Pos="absolute" Top="40" Width="30">11111</Rect>
+		<Rect Align="Align_Left" Height="40" IDE_ID="rect2" Left="90"
+			Pos="absolute" Top="70" Width="30">22222</Rect>
+		<Rect Align="Align_Middle" Height="40" IDE_ID="rect3" Left="30"
+			Pos="absolute" Top="60" Width="30">33333</Rect>
+		<Rect Align="Align_Left" Height="40" IDE_ID="rect4" Left="30"
+			Pos="absolute" Top="50" Width="30">44444</Rect>
+		<Rect Align="Align_Left" Height="40" IDE_ID="rect5" Left="30"
+			Pos="absolute" Top="80" Width="30">55555</Rect>
+		<Rect Align="Align_Middle" Height="40" IDE_ID="rect6" Left="90"
+			Pos="absolute" Top="40" Width="30">11111</Rect>
+		<Rect Align="Align_Left" Height="40" IDE_ID="rect7" Left="60"
+			Pos="absolute" Top="70" Width="30">22222</Rect>
+		<Rect Align="Align_Middle" Height="40" IDE_ID="rect8" Left="90"
+			Pos="absolute" Top="60" Width="30">33333</Rect>
+		<Rect Align="Align_Left" Height="40" IDE_ID="rect9" Left="60"
+			Pos="absolute" Top="50" Width="30">44444</Rect>
+		<Rect Align="Align_Left" Height="40" IDE_ID="rect10" Left="60"
+			Pos="absolute" Top="80" Width="30">55555</Rect>
+		<Rect Align="Align_Middle" Height="40" IDE_ID="rect11" Left="30"
+			Pos="absolute" Top="40" Width="30">11111</Rect>
+		<Rect Align="Align_Left" Height="40" IDE_ID="rect12" Left="30"
+			Pos="absolute" Top="70" Width="30">22222</Rect>
+		<Rect Align="Align_Middle" Height="40" IDE_ID="rect13" Left="60"
+			Pos="absolute" Top="60" Width="30">33333</Rect>
+		<Rect Align="Align_Left" Height="40" IDE_ID="rect14" Left="90"
+			Pos="absolute" Top="50" Width="30">44444</Rect>
+		<Rect Align="Align_Left" Height="40" IDE_ID="rect15" Left="90"
+			Pos="absolute" Top="80" Width="30">55555</Rect>
+	</Content>
+</Root>

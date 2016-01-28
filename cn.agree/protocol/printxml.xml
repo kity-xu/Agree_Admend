@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Root>
+	<Setting>
+		<Page>
+			<Width>238</Width>
+			<Height>300</Height>
+			<Leftmargin>40</Leftmargin>
+			<Rightmargin>5</Rightmargin>
+			<Topmargin>32</Topmargin>
+			<Bottommargin>5</Bottommargin>
+			<ColInterval>1</ColInterval>
+			<LineInterval>5.14</LineInterval>
+		</Page>
+	</Setting>
+	<Content>
+		<Table LineSeperate="0.2">
+			<Tr>
+				<Td Width="129.2">Q</Td>
+			</Tr>
+			<Tr>
+				<Td Width="17.2">Q</Td>
+				<Td Width="111">AAAAAAAAAAAAAA</Td>
+			</Tr>
+			<Tr>
+				<Td Width="108.2">Q</Td>
+				<Td Width="2">B</Td>
+				<Td Width="2">B</Td>
+				<Td Width="2">B</Td>
+				<Td Width="2">B</Td>
+				<Td Width="2">B</Td>
+				<Td Width="5">B</Td>
+			</Tr>
+			<Tr>
+				<Td Width="17.2">Q</Td>
+				<Td Width="40.5">AAAAAAAA</Td>
+				<Td Width="35.4">AA</Td>
+				<Td Width="2">B</Td>
+				<Td Width="2">B</Td>
+				<Td Width="2">B</Td>
+				<Td Width="2">B</Td>
+				<Td Width="2">B</Td>
+				<Td Width="5">B</Td>
+			</Tr>
+			<Tr>
+				<Td Width="108.2">Q</Td>
+				<Td Width="2">B</Td>
+				<Td Width="2">B</Td>
+				<Td Width="2">B</Td>
+				<Td Width="2">B</Td>
+				<Td Width="2">B</Td>
+				<Td Width="5">B</Td>
+			</Tr>
+			<Tr>
+				<Td Width="17.2">Q</Td>
+				<Td Width="35.4">AA</Td>
+				<Td Width="40.5">AAAAAAAA</Td>
+				<Td Width="2">B</Td>
+				<Td Width="2">B</Td>
+				<Td Width="2">B</Td>
+				<Td Width="2">B</Td>
+				<Td Width="2">B</Td>
+				<Td Width="5">B</Td>
+			</Tr>
+		</Table>
+	</Content>
+</Root>
